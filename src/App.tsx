@@ -26,6 +26,8 @@ function App() {
       className="App"
       style={{ textAlign: "center", marginTop: "5rem", fontSize: "3rem" }}
     >
+      This is my very usefull app, wow oh my god.
+      <br />
       {process.env.REACT_APP_URL || "Nao carregou REACT_APP_URL"}
       <br />
       {process.env.REACT_APP_API_URL || "Nao carregou REACT_APP_API_URL"}
@@ -37,7 +39,6 @@ function App() {
       ) : (
         <img src={imageUrl} alt="foto astronomica" />
       )}
-
       {error && <div>Error Message: {error}</div>}
     </div>
   );

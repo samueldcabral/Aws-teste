@@ -27,6 +27,7 @@ function App() {
       style={{ textAlign: "center", marginTop: "5rem", fontSize: "3rem" }}
     >
       This is my very usefull app, wow oh my god.
+      <div>I cant belivese</div>
       <br />
       {process.env.REACT_APP_URL || "Nao carregou REACT_APP_URL"}
       <br />
